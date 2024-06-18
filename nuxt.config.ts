@@ -74,6 +74,7 @@ export default defineNuxtConfig({
       //  Choose the same language ID that's used in the MMF Xcode project or find a language ID using this Apple documentation: https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPInternational/LanguageandLocaleIDs/LanguageandLocaleIDs.html
       { code: 'en-US', iso: 'en-US', name: '🇬🇧 English', file: 'en-US.js', dir: 'ltr' },
       { code: 'de', iso: 'de', name: '🇩🇪 Deutsch', file: 'de.js', dir: 'ltr' },
+      { code: 'pt-BR', iso: 'pt-BR', name: '🇧🇷 Portugues do Brasil', file: 'pt-BR.js', dir: 'ltr' },
     ],
     defaultLocale: 'en-US',
     vueI18n: './i18n.config.ts',
